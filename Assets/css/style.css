@@ -1,42 +1,38 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 /*NAV*/
-
 nav {
     font-size: 20px;
     font-weight: 300;
 }
-
 nav img {
     height: 25px;
 }
 
 /*ARTICULOS*/
-
 .card{
     font-weight: 300;
 }
-
 .card-text {
     font-size: 20px;
     color: #212529;
 }
-
-.size {
+.card a.size {
     font-size: 23px;
 }
 
 /*FORM*/
-
 .formulario {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-h2 {
+.formulario h2 {
     font-size: 30px;
     font-weight: 500;
 }
@@ -47,14 +43,7 @@ footer p{
     font-weight: 300;
     color: #707070;
 }
-
 footer img {
     width: 20%;
 }
-
-    color: #212529;
-    color: #707070;
-   color: #F8F9FA;
-   color: #28a745;
-   color: #fff;
 
